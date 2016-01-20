@@ -1,0 +1,1 @@
+Turnos = new Mongo.Collection("turnos");

@@ -1,0 +1,1 @@
+Intervenciones = new Mongo.Collection("Intervenciones");

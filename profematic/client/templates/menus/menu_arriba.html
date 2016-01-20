@@ -1,0 +1,31 @@
+<template name="menuArriba">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">ProfeMatic</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        {{#if currentUser}}
+          {{#if esProfe}}
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#" id="atenderAlSiguiente">Atender al Siguiente</a></li>
+            </ul>
+          {{else}}
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#" id="solicitarTurno">Solicitar Turno</a></li>
+              <li><a href="#" id="soltarTurno">Soltar Turno</a></li>
+            </ul>
+          {{/if}}
+        {{/if}}
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">{{> loginButtons}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>

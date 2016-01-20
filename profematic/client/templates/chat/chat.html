@@ -1,0 +1,10 @@
+<template name="chat">
+	<div class="form-group" data-spy="affix" data-offset-top="0">
+      <form class="new-intervencion">
+        <input class="form-control" type="text" name="text" placeholder="Escribe algo aqu&iacute;">
+      </form>
+    </div>
+    {{#each intervenciones}}
+      {{> intervencion}}
+    {{/each}}
+</template>

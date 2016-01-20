@@ -1,0 +1,16 @@
+<template name="ticket">
+  <div class="imagen">
+    <img src="ticket.png" class="img-ticket"/>
+    <h2 class="ticket">{{orden}}</h2>
+    {{#if notValid}}        
+      <img src="notValid.png" class="no-valido"/>
+    {{/if}}
+  </div>
+
+  <div class="well well-sm text-center">
+    {{nombreUsuario}}
+    {{#if esProfesorete}}
+      <a href="#" class="eliminar" id="{{turnoId}}">&times;</a>
+    {{/if}}
+  </div>
+</template>

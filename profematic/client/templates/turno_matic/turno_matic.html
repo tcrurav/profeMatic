@@ -1,0 +1,18 @@
+<template name="turnoMatic">
+	<div data-spy="affix" data-offset-top="0">
+    <div class="imagen">
+      <img class ="cuatro-columnas" src="suTurno.png" id="img-su-turno"/>
+      <h2 class="su-turno">{{> suTurno}}</h2>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">Atendiendo a...</div>
+      <div class="panel-body">{{usuarioAtendido}}</div>
+    </div>
+    {{#if teFaltan}}
+      <div class="panel panel-primary">
+        <div class="panel-heading">Te faltan...</div>
+        <div class="panel-body">{{teFaltan}} turnos</div>
+      </div>
+    {{/if}}
+  </div>
+</template>

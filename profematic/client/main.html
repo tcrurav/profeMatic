@@ -1,0 +1,38 @@
+<head>
+  <title>Tibumatic</title>
+  <link rel="stylesheet" href="https://fontlibrary.org/face/segment14"/> <!-- fuente de 14 segmentos para el turnomatic -->
+</head>
+ 
+<body>
+
+  <header>
+    {{> menuArriba}}
+  </header>      
+  
+  <div class="container-fluid">
+    <div class="row">    
+
+      <!-- Turnomatic - Primera Columna -->
+      <div class="col-sm-offset-1 col-sm-3">
+        {{> turnoMatic}}
+      </div>
+
+      <!-- Chat - Tercera Columna -->
+      <div class="col-sm-6">
+        {{> chat}}
+      </div>
+
+      <!-- Tickets - Segunda Columna -->
+      <div class="col-sm-2 col-sm-offset-1">
+          {{> todosLosTickets}}
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    {{> menuAbajo}}
+  </footer>
+
+</body>
+
