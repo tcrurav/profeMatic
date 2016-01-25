@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getTime"
+			],
+			[
+				"menu",
+				"menuArriba (obj) [C]"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -15,6 +23,63 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "client/main.html",
+			"settings":
+			{
+				"buffer_size": 732,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/templates/tickets/todos_los_tickets.html",
+			"settings":
+			{
+				"buffer_size": 142,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/main.js",
+			"settings":
+			{
+				"buffer_size": 1727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/templates/grafica/grafica.html",
+			"settings":
+			{
+				"buffer_size": 87,
+				"line_ending": "Windows",
+				"name": "<template name=\"grafica\">"
+			}
+		},
+		{
+			"file": "client/estilos/estilos.css",
+			"settings":
+			{
+				"buffer_size": 2983,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/templates/grafica/grafica.js",
+			"settings":
+			{
+				"buffer_size": 8405,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/templates/tickets/todos_los_tickets.js",
+			"settings":
+			{
+				"buffer_size": 1301,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -55,8 +120,24 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/estilos",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/chat",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/grafica",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/menus",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/plantillas_externas",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/tickets",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/turno_matic",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/public"
+	],
 	"file_history":
 	[
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/menus/menu_arriba.html",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/menus/menu_arriba.js",
 		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/profematic.sublime-project",
 		"/C/Users/Tiburcio/meteor/tibumatic/client/main.html",
 		"/C/Users/Tiburcio/meteor/tibumatic/tibumatic.sublime-project",
@@ -107,6 +188,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"myNavbar",
 			"console",
 			"email"
 		],
@@ -126,8 +208,216 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "client/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 128.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/templates/tickets/todos_los_tickets.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1119,
+								1119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/templates/grafica/grafica.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<template name=\"grafica\">",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/estilos/estilos.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1998,
+								1998
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2025.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/templates/grafica/grafica.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5602,
+								5602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3101.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "client/templates/tickets/todos_los_tickets.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								984,
+								984
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -208,7 +498,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 262.0,
+	"side_bar_width": 293.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

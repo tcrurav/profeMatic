@@ -32,7 +32,7 @@ Template.todosLosTickets.helpers({
                               notValid: noValido,
                               esProfesorete: esProfesor
                             });
-      console.log(turnosAMostrar);
+      //console.log(turnosAMostrar);
     }
     return turnosAMostrar;
   }

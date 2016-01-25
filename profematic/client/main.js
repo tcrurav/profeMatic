@@ -38,12 +38,12 @@ Template.body.events({
     var usuarios = Turnos.find({ estado: "atendiendoTurno" }).fetch();
     if(usuarios.length == 1){
       //console.log("terminando con el actual");
-      Turnos.update( usuarios[0]._id, { $set: { estado: "atendidoTurno"}});
+      Turnos.update( usuarios[0]._id, { $set: { estado: "atendidoTurno", fechaFinTurno: new Date()}});
     }
     var usuarios = Turnos.find({ estado: "esperandoTurno" }).fetch();
     if(usuarios.length >= 1){
       //console.log("cogiendo al siguiente");
-      Turnos.update( usuarios[0]._id, { $set: { estado: "atendiendoTurno"}});
+      Turnos.update( usuarios[0]._id, { $set: { estado: "atendiendoTurno", fechaInicioTurno: new Date()}});
     }
   }
 });

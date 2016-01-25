@@ -5,6 +5,7 @@
  
 <body>
 
+
   <header>
     {{> menuArriba}}
   </header>      
@@ -13,17 +14,18 @@
     <div class="row">    
 
       <!-- Turnomatic - Primera Columna -->
-      <div class="col-sm-offset-1 col-sm-3">
+      <div class="col-sm-3">
         {{> turnoMatic}}
       </div>
 
       <!-- Chat - Tercera Columna -->
-      <div class="col-sm-6">
-        {{> chat}}
+      <div class="col-sm-7">
+        {{> grafica}}
+        <!--{{> chat}}-->
       </div>
 
       <!-- Tickets - Segunda Columna -->
-      <div class="col-sm-2 col-sm-offset-1">
+      <div class="col-sm-2">
           {{> todosLosTickets}}
       </div>
 
@@ -31,7 +33,8 @@
   </div>
 
   <footer>
-    {{> menuAbajo}}
+    <!--{{> menuAbajo}}-->
+    
   </footer>
 
 </body>

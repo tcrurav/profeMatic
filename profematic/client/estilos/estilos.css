@@ -129,6 +129,35 @@ header .hide-completed {
   text-align: right;
 }
 */
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.imagen-aparato {
+  position: fixed;
+  z-index: 2;
+}
+
 .cuatro-columnas {
   width: 220px; /* una columna sm son 60px. una separación son 30px. 60*4+3*30=340 */
 }
@@ -170,6 +199,10 @@ h2.su-turno {
 
 .affix {
   top: 70px;
+}
+
+#barChart {
+  position: fixed;
 }
 
 body {
