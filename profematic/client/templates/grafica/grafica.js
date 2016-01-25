@@ -1,7 +1,7 @@
 Template.grafica.onRendered( function(){
     //I thought .rendered is deprecated? Correct. Updated.
     //define constants, height/width
-    var margin = {top: 0, right: 20, bottom: 30, left: 40},
+    var margin = {top: 10, right: 20, bottom: 30, left: 40},
         width = 500 - margin.left - margin.right,
         height = 200 - margin.top - margin.bottom;
 
@@ -63,12 +63,24 @@ Template.grafica.onRendered( function(){
                 console.log(tiempoConsumido);
             }
             tiempoConsumido = Math.round(tiempoConsumido/1000);
-            console.log("fin");
-            console.log(tiempoConsumido);
+            //console.log("fin");
+            //console.log(tiempoConsumido);
             dataset.push({ username: usuarios[i].username, tiempoConsumido: tiempoConsumido//, _id: usuaios[i]._id
             });
-            console.log(dataset);
+            //console.log(dataset);
         }
+        dataset.sort(function(a, b){return b.tiempoConsumido-a.tiempoConsumido}); //se ordenan de mayor a menor tiempoConsumido
+        if(dataset.length==0){
+            $("#barChart").hide();
+        } else {
+            if(dataset[0].tiempoConsumido==0){
+                $("#barChart").hide();
+            }else{
+                $("#barChart").show();
+            }
+        }
+        dataset.slice(0,10); //sólo se muestran los 10 primeros
+        dataset.sort(function(a, b){return a.tiempoConsumido-b.tiempoConsumido}); //se ordenan de mayor a menor tiempoConsumido
 
         //update scale domains and axises
         x.domain(dataset.map(function(d) { return d.username; }));

@@ -35,7 +35,7 @@
 			"file": "client/templates/tickets/todos_los_tickets.html",
 			"settings":
 			{
-				"buffer_size": 142,
+				"buffer_size": 149,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "client/templates/grafica/grafica.html",
 			"settings":
 			{
-				"buffer_size": 87,
+				"buffer_size": 109,
 				"line_ending": "Windows",
 				"name": "<template name=\"grafica\">"
 			}
@@ -68,8 +68,17 @@
 			"file": "client/templates/grafica/grafica.js",
 			"settings":
 			{
-				"buffer_size": 8405,
+				"buffer_size": 4771,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/metodos.js",
+			"settings":
+			{
+				"buffer_size": 158,
+				"line_ending": "Windows",
+				"name": "Meteor.startup(function() {"
 			}
 		},
 		{
@@ -132,7 +141,8 @@
 		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/plantillas_externas",
 		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/tickets",
 		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/client/templates/turno_matic",
-		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/public"
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/public",
+		"/C/Users/Tiburcio/Documents/GitHub/profeMatic/profematic/server"
 	],
 	"file_history":
 	[
@@ -235,7 +245,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 128.0,
+						"translation.y": 53.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -247,15 +257,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 142,
+						"buffer_size": 149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								61
+								149,
+								149
 							]
 						],
 						"settings":
@@ -266,7 +276,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -292,11 +302,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -305,15 +315,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 87,
+						"buffer_size": 109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								67
+								97,
+								97
 							]
 						],
 						"settings":
@@ -325,7 +335,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -355,7 +365,7 @@
 						"translation.y": 2025.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -364,15 +374,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8405,
+						"buffer_size": 4771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5602,
-								5602
+								161,
+								161
 							]
 						],
 						"settings":
@@ -382,7 +392,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3101.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -390,6 +400,35 @@
 				},
 				{
 					"buffer": 6,
+					"file": "server/metodos.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Meteor.startup(function() {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "client/templates/tickets/todos_los_tickets.js",
 					"semi_transient": false,
 					"settings":
@@ -415,7 +454,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
